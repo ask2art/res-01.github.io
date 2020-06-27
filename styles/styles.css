@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: right top #f0e6e2;
+    color: #342e36;
+}
+.container {
+    max-width: 1005px;
+    margin: 0 auto;
+    padding: 2em lem;
+}
+header {
+    text-align: center;
+}
+#hub-logo {
+    width: 180px;
+}
+nav {
+    margin: 2em auto ;
+    max-width: 600px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 1.25em;
+    color: #342e36;
+    font-weight: 700;
+    text-decoration: none
+}
+main {
+    display:flex;
+    flex-flow: column-reverse;
+}
+.hero {
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+figure {
+    text-align: center;
+}
+figure img {
+    text-align: center;
+    width: 300px;
+}
+
+@media screen and (min-width: 820px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        align-items: center;
+    }
+    nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    nav ul li {
+        list-style: none;
+        padding: 0.5em 2em
+    }
+    nav ul li a{
+        font-size: 1.375em;
+        color: #36312e;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .ButtonWhite {
+        background: white;
+        color: #36312e;        
+    }
+    .ButtonBlack {
+        background: #36312e;
+        color: white;
+    }
+    main {
+        flex-flow: row;
+    }
+    .hero {
+        text-align: left;
+    }
+    .hero h1 {
+        font-size: 4em;
+    }
+    .figure img {
+        width: 120%;
+    }
+}
+
+
+
+
